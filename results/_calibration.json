@@ -1,0 +1,182 @@
+{
+ "{\"eps_pot\": 0.005, \"eps_sol\": 1e-08, \"fingerprint\": {\"E_demo\": 13.756, \"E_range\": [1.0, 30.0, 100], \"N\": 64, \"R\": 15.0, \"channels\": 2, \"preset\": \"preset_n40Ca_woods_saxon\"}, \"n_probe\": 120, \"seed\": 0, \"system\": \"n40Ca\"}": {
+  "K_coup": 0,
+  "K_coup_spec": 0,
+  "K_diag": 10,
+  "K_diag_spec": 10,
+  "Ns": 110,
+  "_probed": {
+   "fingerprint": {
+    "E_demo": 13.756,
+    "E_range": [
+     1.0,
+     30.0,
+     100
+    ],
+    "N": 64,
+    "R": 15.0,
+    "channels": 2,
+    "preset": "preset_n40Ca_woods_saxon"
+   },
+   "numpy": "2.3.5",
+   "specfun": "scipy-1.16.3|flint-0.9.0[prec=64]|mpmath-1.3.0"
+  },
+  "diag_travel": NaN,
+  "eps_pot": 0.005,
+  "eps_sol": 1e-08,
+  "n_probe": 120,
+  "nb": 22,
+  "split_needed": true,
+  "system": "n40Ca"
+ },
+ "{\"eps_pot\": 0.005, \"eps_sol\": 1e-08, \"fingerprint\": {\"E_demo\": 16.0, \"E_range\": [2.0, 22.0, 100], \"N\": 120, \"R\": 14.0, \"channels\": 8, \"preset\": \"preset_alpha12C_band\"}, \"n_probe\": 120, \"seed\": 0, \"system\": \"alpha12C_band\"}": {
+  "K_coup": 0,
+  "K_coup_spec": 7,
+  "K_diag": 15,
+  "K_diag_spec": 8,
+  "Ns": 520,
+  "_probed": {
+   "fingerprint": {
+    "E_demo": 16.0,
+    "E_range": [
+     2.0,
+     22.0,
+     100
+    ],
+    "N": 120,
+    "R": 14.0,
+    "channels": 8,
+    "preset": "preset_alpha12C_band"
+   },
+   "numpy": "2.3.5",
+   "specfun": "scipy-1.16.3|flint-0.9.0[prec=64]|mpmath-1.3.0"
+  },
+  "diag_travel": 0.027031379517701293,
+  "eps_pot": 0.005,
+  "eps_sol": 1e-08,
+  "n_probe": 120,
+  "nb": 104,
+  "split_needed": false,
+  "system": "alpha12C_band"
+ },
+ "{\"eps_pot\": 0.005, \"eps_sol\": 1e-08, \"fingerprint\": {\"E_demo\": 5.0, \"E_range\": [0.5, 15.0, 100], \"N\": 40, \"R\": 15.0, \"channels\": 1, \"preset\": \"preset_p12C_gaussian\"}, \"n_probe\": 120, \"seed\": 0, \"system\": \"p12C\"}": {
+  "K_coup": 0,
+  "K_coup_spec": 0,
+  "K_diag": 3,
+  "K_diag_spec": 3,
+  "Ns": 50,
+  "_probed": {
+   "fingerprint": {
+    "E_demo": 5.0,
+    "E_range": [
+     0.5,
+     15.0,
+     100
+    ],
+    "N": 40,
+    "R": 15.0,
+    "channels": 1,
+    "preset": "preset_p12C_gaussian"
+   },
+   "numpy": "2.3.5",
+   "specfun": "scipy-1.16.3|flint-0.9.0[prec=64]|mpmath-1.3.0"
+  },
+  "diag_travel": NaN,
+  "eps_pot": 0.005,
+  "eps_sol": 1e-08,
+  "n_probe": 120,
+  "nb": 5,
+  "split_needed": true,
+  "system": "p12C"
+ },
+ "{\"eps_pot\": 0.005, \"eps_sol\": 1e-08, \"fingerprint\": {\"E_demo\": 5.0, \"E_range\": [0.5, 15.0, 100], \"N\": 60, \"R\": 15.0, \"channels\": 2, \"preset\": \"preset_alpha_d_SD\"}, \"n_probe\": 120, \"seed\": 0, \"system\": \"alpha_d\"}": {
+  "K_coup": 0,
+  "K_coup_spec": 2,
+  "K_diag": 4,
+  "K_diag_spec": 2,
+  "Ns": 50,
+  "_probed": {
+   "fingerprint": {
+    "E_demo": 5.0,
+    "E_range": [
+     0.5,
+     15.0,
+     100
+    ],
+    "N": 60,
+    "R": 15.0,
+    "channels": 2,
+    "preset": "preset_alpha_d_SD"
+   },
+   "numpy": "2.3.5",
+   "specfun": "scipy-1.16.3|flint-0.9.0[prec=64]|mpmath-1.3.0"
+  },
+  "diag_travel": 0.3770885692462594,
+  "eps_pot": 0.005,
+  "eps_sol": 1e-08,
+  "n_probe": 120,
+  "nb": 9,
+  "split_needed": false,
+  "system": "alpha_d"
+ },
+ "{\"eps_pot\": 0.005, \"eps_sol\": 1e-08, \"fingerprint\": {\"E_demo\": 54.0, \"E_range\": [10.0, 80.0, 100], \"N\": 100, \"R\": 15.0, \"channels\": 3, \"preset\": \"preset_alpha24Mg_rotational\"}, \"n_probe\": 120, \"seed\": 0, \"system\": \"alpha24Mg\"}": {
+  "K_coup": 0,
+  "K_coup_spec": 10,
+  "K_diag": 16,
+  "K_diag_spec": 6,
+  "Ns": 190,
+  "_probed": {
+   "fingerprint": {
+    "E_demo": 54.0,
+    "E_range": [
+     10.0,
+     80.0,
+     100
+    ],
+    "N": 100,
+    "R": 15.0,
+    "channels": 3,
+    "preset": "preset_alpha24Mg_rotational"
+   },
+   "numpy": "2.3.5",
+   "specfun": "scipy-1.16.3|flint-0.9.0[prec=64]|mpmath-1.3.0"
+  },
+  "diag_travel": 0.0004977044933425226,
+  "eps_pot": 0.005,
+  "eps_sol": 1e-08,
+  "n_probe": 120,
+  "nb": 37,
+  "split_needed": false,
+  "system": "alpha24Mg"
+ },
+ "{\"eps_pot\": 0.005, \"eps_sol\": 1e-08, \"fingerprint\": {\"E_demo\": 7.0, \"E_range\": [1.0, 20.0, 100], \"N\": 80, \"R\": 20.0, \"channels\": 5, \"preset\": \"preset_n238U_rotational\"}, \"n_probe\": 120, \"seed\": 0, \"system\": \"n238U\"}": {
+  "K_coup": 0,
+  "K_coup_spec": 11,
+  "K_diag": 17,
+  "K_diag_spec": 6,
+  "Ns": 270,
+  "_probed": {
+   "fingerprint": {
+    "E_demo": 7.0,
+    "E_range": [
+     1.0,
+     20.0,
+     100
+    ],
+    "N": 80,
+    "R": 20.0,
+    "channels": 5,
+    "preset": "preset_n238U_rotational"
+   },
+   "numpy": "2.3.5",
+   "specfun": "scipy-1.16.3|flint-0.9.0[prec=64]|mpmath-1.3.0"
+  },
+  "diag_travel": 0.0012171183019756867,
+  "eps_pot": 0.005,
+  "eps_sol": 1e-08,
+  "n_probe": 120,
+  "nb": 53,
+  "split_needed": false,
+  "system": "n238U"
+ }
+}

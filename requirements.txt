@@ -1,0 +1,22 @@
+# Pinned to the versions this was developed and validated against (Python 3.14).
+# Lower bounds are the real constraints; the pins keep a regenerated figure from
+# being a new result. Every block records the python and numpy that wrote it.
+
+numpy==2.3.5
+scipy==1.16.3          # spherical_jn/yn, hyperu, loggamma -> core.specfun
+matplotlib==3.10.8
+pandas==3.0.5
+tqdm==4.69.0
+
+# --- special functions -----------------------------------------------------
+mpmath==1.4.1          # core.specfun reference backend and universal fallback
+python-flint==0.9.0    # Arb, the charged-Coulomb backend; without it the chain
+                       # falls back to mpmath at ~10x the cold-cache cost
+
+# --- optional ------------------------------------------------------------
+numba==0.63.1          # NumbaBackend, the double-precision mesh kernel; NOT in
+                       # DEFAULT_CHAIN (2e-12 against the default's machine precision)
+threadpoolctl==3.6.0   # lets pipeline.blas_threads observe the BLAS thread count
+
+# --- development -------------------------------------------------------
+pytest==9.1.1
